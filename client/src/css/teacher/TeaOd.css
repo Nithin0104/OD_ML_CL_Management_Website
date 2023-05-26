@@ -1,0 +1,157 @@
+.overallq{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea2q{
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.tea21q{
+    width: 130px;
+    background-color: #D9D9D9;
+    height: 160px;
+}
+.tea22q{
+    width: auto;
+    background-color: #FFFFFF;
+    height: 160px;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    font-weight: bold;
+    color: #4F6D7A;
+}
+.tea22q .nameq{
+    font-size: 24px;
+}
+
+.statq{
+    color: #FFFFFF;
+    width: inherit;
+    text-align: center;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.teaform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tea3q{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tea4q{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: #FFFFFF
+}
+
+.qq1{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.odpanelq{
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 90%;
+    border: 15px solid rgba(84, 79, 189,0.5);
+    border-radius: 20px;
+}
+.odformq{
+    margin: 0;
+    border: 2px solid rgba(152, 141, 141,58%);
+    border-radius: 12px;
+    background-color:rgba(84, 79, 189,0.09) ;
+}
+.odinputq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.odinq{
+    
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    justify-content: space-between;
+    /* border-bottom:2px solid rgba(152, 141, 141,58%) ;
+     */
+    
+}
+.odimgq{
+    width: 80px;
+    scale: 0.8;
+    flex-shrink: inherit;
+}
+.odimg1q{
+    width: 60px;
+    scale: 0.8;
+    padding-right: 10px;
+
+}
+.odinq div{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.odinq label{
+    font-family: 'Orbitron';
+    font-size: 18px;
+    font-weight: bold;
+    color: #4F6D7A;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+}
+.odinq p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 20px;
+    min-height: 30px;
+    height: auto;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+    font-family: 'Orbitron';
+}

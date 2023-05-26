@@ -1,0 +1,106 @@
+.Slist{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left:4vw ;
+    margin-top: 2vw;
+    width: 85%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.Shead{
+    height: 110px;
+    font-family: 'Orbitron';
+    font-size: 40px;
+    font-weight: bold;
+    color: #4F6D7A;
+}
+.Shead p{
+    margin: 0;
+    margin-top: 45px;
+}
+
+.Sline{
+    width: 50vw;
+    border: 4px solid #82C0CC;
+    border-radius: 20px;
+}
+
+.Events{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.EventSlab{
+    background: #e0f0f8;
+    margin-bottom: 100px;
+    height: 200px;
+    width: 85%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.EventSp{
+    width: 9vw;
+    background: #564FBD;
+    height: 80%;
+    opacity: 0.3;
+    border-radius: 20px;
+}
+.EventSdet{
+    margin-left: 2vw;
+    width: 29vw;
+    height: 80%;
+    }
+    .EventSdet p{
+margin: 1vw;
+    }
+.Eve1{
+    font-family: 'Orbitron';
+    color: #4F6D7A;
+    font-weight: bold;
+margin: 0;
+}
+.Eve1 p{margin: 0;}
+.Eve2{
+    margin-top: 8px;
+    width: 28vw;
+    border: 1px solid #82C0CC;
+    border-radius: 20px; 
+    font-family: 'Montserrat';
+}
+.Eve3{
+    font-family: 'Montserrat';
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.Eve31{width: 15vw; margin: 0;}
+
+.Eve32{width: 14vw; margin:0}
+.Eve4{font-family: 'Montserrat';}
+.Eve5{font-family: 'Montserrat';}
+.Eve6{font-family: 'Montserrat';
+    display: flex;
+    margin: 0;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Eve62{height: 35px;
+    border-radius: 20px;
+    width: 80px;
+    margin-bottom: 30px;
+    background-color: #82C0CC;
+}
+.Eve62 p{
+    margin: 8px;
+    margin-left: 12px;
+
+}

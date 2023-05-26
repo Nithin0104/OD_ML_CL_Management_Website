@@ -1,0 +1,112 @@
+.odweb{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    margin-top: 65px;
+}
+
+.odfull{
+    background-color: #FFFFFF;
+    margin-top: 3vw;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+.odhead{
+    height: auto;
+    margin-bottom: 10px;
+    padding-top: 2vw;
+    font-family: 'Orbitron';
+    font-size: 35px;
+    font-weight: bold;
+    color: #4F6D7A;
+}
+.odhead span{
+    color: #9695C6;
+}
+.odline{
+    width: 50vw;
+    border: 3px solid #82C0CC;
+    border-radius: 20px;
+}
+
+.odpanel{
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-top: 3vw;
+    border: 15px solid rgba(84, 79, 189,0.5);
+    border-radius: 20px;
+}
+.odform{
+    margin: 25px;
+    border: 2px solid rgba(152, 141, 141,58%);
+    border-radius: 12px;
+}
+.odinput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.odin{
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    justify-content: space-between;
+    /* border-bottom:2px solid rgba(152, 141, 141,58%) ;
+     */
+    
+}
+.odimg{
+    width: 70px;
+    flex-shrink: inherit;
+}
+.odimg1{
+    width: 55px;
+    padding-right: 10px;
+
+}
+.odin div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.odin label{
+    font-family: 'Orbitron';
+    font-size: 15px;
+    font-weight: bold;
+    color: #4F6D7A;
+}
+.odin input{
+    background-color: #D9D9D9;
+    border: 0;
+    border-radius: 20px;
+    height: 25px;
+    padding-left: 10px;
+    font-family: 'Montserrat';
+}

@@ -1,0 +1,31 @@
+header{
+    margin: 0;
+    padding: 0;
+    background-color:#4F6D7A ;
+    width: 100%;
+ z-index: 15;
+  position: fixed;
+  top: 0;
+ height: 65px;
+  left: 0;
+  right: 0;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headlogo{
+    scale: 0.5;
+}
+.headRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    width: 40%;
+    font-family: 'Orbitron';
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
